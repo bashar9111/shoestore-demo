@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+packages/
+*.user
+*.suo
+*.mdf
+*.ldf
+App_Data/*
+!App_Data/.gitkeep
+.test-work/
+
+.local-iis/

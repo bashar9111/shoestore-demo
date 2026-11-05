@@ -1,0 +1,4 @@
+<%@ Page Title="OrderManagement" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="OrderManagement.aspx.cs" Inherits="WebApplication5.OrderManagement" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+<h1>My orders</h1><p>Only orders placed by your signed-in account appear here.</p><div class="table-wrap"><asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" GridLines="None" EmptyDataText="No demo orders yet. Browse shoes to get started."><Columns><asp:BoundField HeaderText="Reference" DataField="OrderID" /><asp:BoundField HeaderText="Name" DataField="CustomerName" /><asp:BoundField HeaderText="Date" DataField="OrderDate" /><asp:BoundField HeaderText="Items" DataField="Items" /><asp:BoundField HeaderText="Total (OMR)" DataField="Amount" DataFormatString="{0:F3}" /><asp:BoundField HeaderText="Status" DataField="Status" /></Columns></asp:GridView></div>
+</asp:Content>

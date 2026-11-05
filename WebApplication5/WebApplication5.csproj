@@ -1,0 +1,85 @@
+ï»¿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{20E4EDF1-991B-4390-BADD-617481C18C26}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WebApplication5</RootNamespace>
+    <AssemblyName>ShoeStoreDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OutputPath>bin\</OutputPath>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\.gitkeep" />
+    <Content Include="Content\Site.css" />
+    <Compile Include="DemoStore.cs" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Compile Include="Global.asax.cs" />
+    <Content Include="Home.aspx" />
+    <Compile Include="Home.aspx.cs" />
+    <Compile Include="Home.aspx.designer.cs" />
+    <Content Include="Login.aspx" />
+    <Compile Include="Login.aspx.cs" />
+    <Compile Include="Login.aspx.designer.cs" />
+    <Content Include="Order.aspx" />
+    <Compile Include="Order.aspx.cs" />
+    <Compile Include="Order.aspx.designer.cs" />
+    <Content Include="OrderManagement.aspx" />
+    <Compile Include="OrderManagement.aspx.cs" />
+    <Compile Include="OrderManagement.aspx.designer.cs" />
+    <Content Include="Products.aspx" />
+    <Compile Include="Products.aspx.cs" />
+    <Compile Include="Products.aspx.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Register.aspx" />
+    <Compile Include="Register.aspx.cs" />
+    <Compile Include="Register.aspx.designer.cs" />
+    <Content Include="Site.Master" />
+    <Compile Include="Site.Master.cs" />
+    <Compile Include="Site.Master.designer.cs" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config" />
+    <Content Include="Web.Release.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:30012/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+<ItemGroup><Content Include="Images\sport.png" /><Content Include="Images\casual.png" /><Content Include="Images\formal.png" /><Content Include="Images\classic.png" /><Content Include="Images\leather.png" /></ItemGroup></Project>

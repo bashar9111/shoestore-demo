@@ -1,0 +1,1 @@
+namespace WebApplication5 { public partial class Products { protected global::System.Web.UI.WebControls.Button btnSport; protected global::System.Web.UI.WebControls.Button btnCasual; protected global::System.Web.UI.WebControls.Button btnFormal; protected global::System.Web.UI.WebControls.Button btnClassic; protected global::System.Web.UI.WebControls.Button btnLeather; } }

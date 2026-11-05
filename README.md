@@ -16,7 +16,7 @@ Alternatively open `ShoeStoreDemo.sln` in Visual Studio and run with IIS Express
 If Windows blocks a script, review it and unblock it in file properties, or use Visual Studio. These scripts do not change your execution policy.
 
 ## Try it
-Register with fictional details: a username of 3ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“30 letters, digits or underscores, an address such as learner@example.test, and a unique password of 12ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“128 characters. There is no preset admin account.
+Register with fictional details: a username of 3-30 letters, digits or underscores, an address such as learner@example.test, and a unique password of 12-128 characters. There is no preset admin account.
 
 Browse five fictional products, add items to the cart, sign in and place a demo order. My orders shows only the signed-in account's orders. Sign out when finished. Remember Me controls authentication-cookie persistence.
 
